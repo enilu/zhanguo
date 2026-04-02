@@ -2,6 +2,9 @@
 # 战国小说点评脚本 - 使用 Codex 进行专业审读
 # 每2小时检查项目更新并生成点评
 
+# 设置 PATH 以确保能找到 codex 命令
+export PATH="/root/.nvm/versions/node/v22.22.2/bin:$PATH"
+
 PROJECT_DIR="/root/.openclaw/workspace/zhanguo"
 REVIEW_DIR="$PROJECT_DIR/reviews"
 RECORDS_DIR="$REVIEW_DIR/records"
