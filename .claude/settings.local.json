@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(powershell -Command \"cd 'D:\\\\workspace\\\\aicode\\\\zhanguo'; Get-ChildItem -Force\")",
+      "Bash(powershell -Command \"cd 'D:\\\\workspace\\\\aicode\\\\zhanguo'; git status\")",
+      "Bash(powershell:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
